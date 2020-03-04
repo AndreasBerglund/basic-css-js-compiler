@@ -1,0 +1,32 @@
+{
+  "name": "gulp-asset-compiler",
+  "version": "1.0.0",
+  "description": "Compile scss, js via gulp",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "watch": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrandMonkey-DK/basetheme.git"
+  },
+  "keywords": [
+    "scss",
+    "js",
+    "gulp"
+  ],
+  "author": "brandmonkey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrandMonkey-DK/basetheme/issues"
+  },
+  "homepage": "https://github.com/BrandMonkey-DK/basetheme#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.0.2"
+  }
+}
